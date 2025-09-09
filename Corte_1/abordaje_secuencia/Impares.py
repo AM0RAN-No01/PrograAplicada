@@ -1,3 +1,4 @@
+#9/septiembre Clase 8-10 Am +1 DECIMA primer corte 
 print("el programa tiene como objetivo determinar si un numero ingrsado es par o impar, para finalizar el programa oprima Ctrl+c\n")
 while True:
     try:
