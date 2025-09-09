@@ -1,3 +1,4 @@
+#9/septiembre Clase 8-10 Am +1 DECIMA primer corte 
 print("Verificador de números primos - Ctrl+C para salir")
 
 try:
