@@ -1,22 +1,17 @@
-print("el programa tiene como objetivo determinar si un numero ingrsado es par o impar, para finalizar el programa oprima Ctrl+c")
-
+print("el programa tiene como objetivo determinar si un numero ingrsado es par o impar, para finalizar el programa oprima Ctrl+c\n")
 while True:
     try:
-        # Solicitar número al usuario
-        numero = input("\nIngresa un número: ")
-        
-        # Convertir a entero y verificar
+        numero = input("Ingresa un número entero: ")
         numero_int = int(numero)
         
         if numero_int % 2 == 0:
-            print(f"El número {numero_int} es PAR")
+            print(f"PAR")
         else:
-            print(f"El número {numero_int} es IMPAR")
+            print(f"IMPAR")
             
     except ValueError:
-        print("Error: Por favor ingresa un número válido")
-    
+        print("Error: Ingresa solo números enteros")
     except KeyboardInterrupt:
-        print("\n\nPrograma finalizado con Ctrl+C. Hasta luego")
+        print("\n¡Adiós!")
         break
-    #9/septiembre Clase 8-10 am PONER DECIMA de primer corte
+    #9/septiembre Clase 8-10 Am +1 DECIMA primer corte 
